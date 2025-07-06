@@ -30,7 +30,7 @@ Keploy automatically generates comprehensive unit tests for your C++ codebase, f
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/pranjalbarnwal/AITestGeneratorKeploy.git
+   git clone https://github.com/pranjalbarnwal/AITestGenerator.git
    cd keploy
    ```
 
