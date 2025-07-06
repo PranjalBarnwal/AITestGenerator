@@ -1,4 +1,4 @@
-# 🚀 Keploy: AI-Powered C++ Test Generator
+# 🚀 AI-Powered C++ Test Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![C++: 17](https://img.shields.io/badge/C++-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
