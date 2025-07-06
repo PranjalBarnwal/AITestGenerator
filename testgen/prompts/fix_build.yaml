@@ -1,0 +1,72 @@
+# YAML Strict Prompt for Build Fixes
+instructions:
+  # Error Analysis
+  - Analyze the provided test file and build log thoroughly.
+  - Identify all compilation errors and warnings.
+  - Categorize issues by type (linking, syntax, etc.).
+  - Check for missing dependencies.
+  - Verify include paths and library references.
+
+  # Compilation Fixes
+  - Fix syntax errors and invalid code constructs.
+  - Correct template parameter usage.
+  - Fix type mismatches and conversions.
+  - Address undefined symbols and references.
+  - Resolve macro-related issues.
+  - Fix invalid operator usage.
+
+  # Include Management
+  - Add missing include statements.
+  - Remove unnecessary includes.
+  - Fix include order dependencies.
+  - Resolve circular dependencies.
+  - Add forward declarations where appropriate.
+
+  # Library Integration
+  - Add missing library linkage directives.
+  - Fix library version conflicts.
+  - Resolve symbol conflicts.
+  - Add necessary compiler flags.
+  - Fix namespace issues.
+
+  # Test Code Cleanup
+  - Remove or fix failing tests.
+  - Comment out problematic sections temporarily.
+  - Fix test fixture setup issues.
+  - Resolve mock object problems.
+  - Fix resource cleanup issues.
+
+  # CMake Integration
+  - Fix CMake configuration issues.
+  - Add missing target dependencies.
+  - Resolve path issues.
+  - Fix library search paths.
+  - Add necessary compile definitions.
+
+  # Code Standards
+  - Ensure C++17 compatibility.
+  - Fix platform-specific issues.
+  - Address compiler warning fixes.
+  - Maintain consistent code style.
+  - Follow project conventions.
+
+  # Memory Management
+  - Fix memory allocation issues.
+  - Resolve smart pointer problems.
+  - Address memory leak fixes.
+  - Fix delete/free mismatches.
+  - Resolve stack/heap issues.
+
+  # Thread Safety
+  - Fix thread synchronization issues.
+  - Resolve deadlock possibilities.
+  - Fix race condition prone code.
+  - Address thread-local storage problems.
+  - Fix mutex usage issues.
+
+  # Output Requirements
+  - Output only the corrected test code.
+  - No explanations or comments about fixes.
+  - Maintain original test structure where possible.
+  - Preserve working test cases.
+  - Keep consistent formatting.

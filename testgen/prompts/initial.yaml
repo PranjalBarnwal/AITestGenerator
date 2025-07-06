@@ -1,0 +1,68 @@
+# YAML Strict Prompt for Initial Test Generation
+instructions:
+  # Code Analysis
+  - Analyze the provided C++ source/header file thoroughly.
+  - Identify all public methods, classes, and their relationships.
+  - Note any dependencies and external library requirements.
+  - Understand the purpose and behavior of each component.
+
+  # Test Structure
+  - Generate Google Test unit tests for all public functions and classes.
+  - Create a test fixture class for each major component.
+  - Implement SetUp() and TearDown() methods where necessary.
+  - Group related tests logically within test suites.
+
+  # Test Coverage
+  - Ensure each public method has at least one test case.
+  - Include positive and negative test scenarios.
+  - Test edge cases (null pointers, empty containers, boundary values).
+  - Verify error handling and exception cases.
+  - Test different input combinations where applicable.
+
+  # Mock Objects
+  - Use Google Mock for external dependencies.
+  - Create mock classes for interfaces and complex dependencies.
+  - Set up appropriate mock expectations and return values.
+  - Verify mock object interactions where relevant.
+
+  # Code Quality
+  - Follow Google Test naming conventions (TestSuiteName_TestName).
+  - Use descriptive test names that indicate the scenario being tested.
+  - Add all necessary include statements at the top.
+  - Maintain consistent code formatting and indentation.
+  - Use ASSERT for critical checks that should stop the test.
+  - Use EXPECT for non-critical validations.
+
+  # Memory Management
+  - Test memory allocation and deallocation.
+  - Verify no memory leaks in resource management.
+  - Test smart pointer usage where applicable.
+  - Include cleanup code in TearDown() methods.
+
+  # Thread Safety
+  - Add tests for thread-safe methods if present.
+  - Verify concurrent access patterns if applicable.
+  - Test synchronization mechanisms.
+
+  # File Output
+  - Save each test file as test_<original>.cpp.
+  - Do not duplicate tests across files.
+  - Organize tests in a logical order.
+  - Group related test cases together.
+
+  # Documentation
+  - Add brief comments explaining complex test scenarios.
+  - Document any test-specific setup requirements.
+  - Include any assumptions made in the tests.
+
+  # Output Requirements
+  - Output only the test code, no explanations or comments about generation.
+  - Use proper C++17 features where appropriate.
+  - Ensure all code is properly formatted.
+  - Include all necessary namespace declarations.
+
+  # Test Independence
+  - Ensure each test is independent and can run in isolation.
+  - Avoid test interdependencies.
+  - Reset any static or global state between tests.
+  - Clean up any resources or side effects.

@@ -1,0 +1,73 @@
+# YAML Strict Prompt for Test Refinement
+instructions:
+  # Code Review
+  - Review the generated test files thoroughly.
+  - Identify gaps in test coverage.
+  - Check for proper test organization and structure.
+  - Verify all public methods are tested.
+  - Ensure proper use of test fixtures.
+
+  # Test Enhancement
+  - Remove duplicate or redundant test cases.
+  - Combine similar tests using parameterized testing.
+  - Add missing edge cases and boundary conditions.
+  - Improve error handling coverage.
+  - Add stress tests for performance-critical components.
+  - Include negative test cases.
+
+  # Code Quality Improvements
+  - Add missing include statements and relevant libraries.
+  - Optimize mock object usage.
+  - Improve test naming for clarity.
+  - Enhance assertion messages.
+  - Add appropriate test categories/tags.
+  - Follow consistent formatting.
+
+  # Memory and Resource Management
+  - Verify proper resource cleanup.
+  - Check for potential memory leaks.
+  - Add tests for resource exhaustion scenarios.
+  - Ensure exception safety.
+  - Test RAII pattern implementation.
+
+  # Concurrency Testing
+  - Add or improve multi-threading tests.
+  - Test race conditions.
+  - Verify thread synchronization.
+  - Test parallel execution scenarios.
+  - Check thread pool behavior if applicable.
+
+  # Data Validation
+  - Add tests for data serialization/deserialization.
+  - Verify database interactions.
+  - Test data validation rules.
+  - Include boundary value analysis.
+  - Test data type conversions.
+
+  # Performance Considerations
+  - Add performance benchmarks where relevant.
+  - Test resource-intensive operations.
+  - Include timeout mechanisms.
+  - Verify caching behavior.
+  - Test load handling capabilities.
+
+  # Security Testing
+  - Add security-related test cases.
+  - Test input validation and sanitization.
+  - Verify access control mechanisms.
+  - Test authentication and authorization.
+  - Check for common vulnerabilities.
+
+  # Documentation Enhancement
+  - Improve test case descriptions.
+  - Document test dependencies.
+  - Add setup instructions where needed.
+  - Document any assumptions.
+  - Include examples of test data.
+
+  # Output Requirements
+  - Output only the improved test code.
+  - Maintain consistent code style.
+  - Preserve existing test structure.
+  - Keep working tests unchanged.
+  - No explanatory comments about changes.
